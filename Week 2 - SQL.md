@@ -119,7 +119,6 @@ The connection objecct will automatically commit every statement to the database
 - [A beginner’s guide to ACID and database transactions](https://vladmihalcea.com/a-beginners-guide-to-acid-and-database-transactions/)
 - [A Simple Guide to Five Normal Forms](http://www.bkent.net/Doc/simple5.htm)
 - [Say NO to Venn Diagrams When Explaining JOINs](https://blog.jooq.org/2016/07/05/say-no-to-venn-diagrams-when-explaining-joins/)
-
 - [A beginner’s guide to SQL injection and how you should prevent it](https://vladmihalcea.com/a-beginners-guide-to-sql-injection-and-how-you-should-prevent-it/)
 - [The anatomy of Connection Pooling](https://vladmihalcea.com/the-anatomy-of-connection-pooling/)
 
@@ -136,7 +135,6 @@ The connection objecct will automatically commit every statement to the database
 - [PostgreSQL SQL Command Reference](https://www.postgresql.org/docs/12/sql-commands.html)
 - [psql](https://www.postgresql.org/docs/12/app-psql.html)
 - [PostgreSQL on Amazon RDS](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_PostgreSQL.html)
-
 - [Java JDBC API](https://docs.oracle.com/javase/8/docs/technotes/guides/jdbc/)
 - [java.sql (JavaSE 8)](https://docs.oracle.com/javase/8/docs/api/java/sql/package-summary.html)
 
@@ -152,7 +150,6 @@ The connection objecct will automatically commit every statement to the database
 - [Developer's Guide to PostgreSQL on Linux: psql shell](https://thecodinginterface.com/blog/postgresql-psql-shell/)
 - [Setting Up for Amazon RDS](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_SettingUp.html)
 - [Creating Postgres RDS and Connecting Using pgAdmin](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_GettingStarted.CreatingConnecting.PostgreSQL.html)
-
 - [Oracle Java Tutorials - JDBC Introduction](https://docs.oracle.com/javase/tutorial/jdbc/overview/index.html)
 - [Oracle Java Tutorials - JDBC Basics](https://docs.oracle.com/javase/tutorial/jdbc/basics/index.html)
 - [JDBC Diver Connection URL strings](https://vladmihalcea.com/jdbc-driver-connection-url-strings/)
