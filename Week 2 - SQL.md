@@ -104,8 +104,8 @@ To stop a container, run:
 To create a custom postgres database, create a file named `Dockerfile`:
 ```Dockerfile
 FROM postgres:10
-ENV POSTGRES_USER hello-postgres
-ENV POSTGRES_PASSWORD hello-postgres
+ENV POSTGRES_USER=hello-postgres
+ENV POSTGRES_PASSWORD=hello-postgres
 ADD init.sql /docker-entrypoint-initdb.d
 EXPOSE 5432
 ```
@@ -116,9 +116,11 @@ To build an image from the Dockerfile:
 >docker build -t demo-postgres .
 
 Where `demo-postgres` is the name you wish to give this image. Then to run the build:
->docker run -p 5432:5432 -d demo-postgres
+>docker run -p 5432:5432 -d --name demo-postgres-container demo-postgres
 
 Remember to expose the ports and use any desired flags.
+
+>docker start -i demo-postgres-container
 
 ### Connecting to a Docker PostgreSQL database with `psql`
 With your Docker postgres image built and a container running, use `docker exec` to run the `psql` tool on the running container:
